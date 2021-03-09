@@ -7,6 +7,7 @@ import org.aeonbits.owner.Config;
 		"file:C:/Users/Vladyslav_Bukach/Downloads/test/credentials.properties",
 		"classpath:credentials.properties",
 })
+@Config.LoadPolicy(Config.LoadType.MERGE)
 public interface CredentialsConfig extends Config {
 
 	@Key("username")
