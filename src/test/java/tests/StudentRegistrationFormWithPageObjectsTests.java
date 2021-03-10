@@ -7,7 +7,7 @@ import pages.StudentRegistrationPage;
 public class StudentRegistrationFormWithPageObjectsTests extends TestBase {
     StudentRegistrationPage studentRegistrationPage;
 
-    @Disabled()
+//    @Disabled()
     @Test
     void successfulFillFormTest() {
         studentRegistrationPage = new StudentRegistrationPage();

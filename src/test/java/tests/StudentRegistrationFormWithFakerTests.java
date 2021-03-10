@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 
 public class StudentRegistrationFormWithFakerTests extends TestBase {
 
-    @Disabled()
+//    @Disabled()
     @Test()
     void successfulFillFormTest() {
         Faker faker = new Faker();
